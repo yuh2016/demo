@@ -40,7 +40,6 @@ public class Main {
             Element info = bookpage.getElementById("productDetailsTable").selectFirst(".bucket").selectFirst(".content").selectFirst("ul");
             String press = info.select("li:contains(出版社)").text();
 
-
             System.out.println("\n"+"书名："+ title
                     +"\n" + "链接："+ url
                     +"\n" + "作者："+ author
